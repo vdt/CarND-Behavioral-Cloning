@@ -1,27 +1,27 @@
-(carnd-term1) carnd@ip-172-31-20-28:~/BC-P3$ python model.py\
-Using TensorFlow backend.\
-I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so locally\
-I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so locally\
-I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so locally\
-I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally\
-I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so locally\
-------------------------------\
-Parameters\
-------------------------------\
-test_size            := 0.2\
-nb_epoch             := 28\
-save_best_only       := True\
-samples_per_epoch    := 24000\
-learning_rate        := 0.0001\
-keep_prob            := 0.5\
-batch_size           := 1024\
-data_dir             := data\
-------------------------------\
-____________________________________________________________________________________________________\
+(carnd-term1) carnd@ip-172-31-20-28:~/BC-P3$ python model.py
+Using TensorFlow backend.
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so locally
+------------------------------
+Parameters
+------------------------------
+test_size            := 0.2
+nb_epoch             := 28
+save_best_only       := True
+samples_per_epoch    := 24000
+learning_rate        := 0.0001
+keep_prob            := 0.5
+batch_size           := 1024
+data_dir             := data
+------------------------------
+____________________________________________________________________________________________________
 Layer (type)                     Output Shape          Param #     Connected to\
-====================================================================================================\
+====================================================================================================
 lambda_1 (Lambda)                (None, 66, 200, 3)    0           lambda_input_1[0][0]\
-____________________________________________________________________________________________________\
+____________________________________________________________________________________________________
 convolution2d_1 (Convolution2D)  (None, 31, 98, 24)    1824        lambda_1[0][0]\
 ____________________________________________________________________________________________________\
 convolution2d_2 (Convolution2D)  (None, 14, 47, 36)    21636       convolution2d_1[0][0]\
