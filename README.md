@@ -32,25 +32,27 @@ The [model.py](model.py) file contains the code for training and saving the conv
 
 #### 1. An appropriate model architecture has been employed
 
-[NVIDIA's End-to-End Deep Learning Model for Self-Driving Cars](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/) is used. It consists of a convolution neural network with 3x3 filter sizes and depths between 32 and 128 ([model.py](model.py) lines 18-24) 
+[NVIDIA's End-to-End Deep Learning Model for Self-Driving Cars](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/) is used. It consists of a convolution neural network with 5x5 and 3x3 filter sizes and depths between 24 and 64 ([model.py](model.py) lines 46-75) 
 
-The model includes RELU layers to introduce nonlinearity (code line 20), and the data is normalized in the model using a Keras lambda layer (code line 18). 
+The data is normalized in the model using a Keras lambda layer (code line 67)
+
+The model includes ELU layers to introduce nonlinearity (code lines 70-80)
 
 #### 2. Attempts to reduce overfitting in the model
 
-The model contains dropout layers in order to reduce overfitting ([model.py](model.py) lines 21). 
+The model contains dropout layers in order to reduce overfitting ([model.py](model.py) lines 76). 
 
-The model was trained and validated on different data sets to ensure that the model was not overfitting (code line 10-16). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
+The model was trained and validated on different data sets to ensure that the model was not overfitting ([model.py](model.py) line 142).
+
+The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
 
 #### 3. Model parameter tuning
 
-The model used an adam optimizer, so the learning rate was not tuned manually ([model.py](model.py) line 25).
+The model used an adam optimizer, so the learning rate was not tuned manually ([model.py](model.py) line 110).
 
 #### 4. Appropriate training data
 
 Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving, recovering from the left and right sides of the road ... 
-
-For details about how I created the training data, see the next section. 
 
 ### Model Architecture and Training Strategy
 
