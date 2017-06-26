@@ -52,7 +52,7 @@ The model used an adam optimizer with the default learning rate (0.0001) ([model
 
 #### 4. Appropriate training data
 
-I used [Udacity's SDC-ND Sample Training Data](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584f6edd_data/data.zip) for Training The Model 
+I used [Udacity's SDC-ND Sample Training Data](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584f6edd_data/data.zip) for Training [The Model](model.py)
 
 ### Model Architecture and Training Strategy
 
