@@ -28,7 +28,7 @@ def load_data(args):
     #reads CSV file into a single dataframe variable
     data_df = pd.read_csv(os.path.join(os.getcwd(), args.data_dir, 'driving_log.csv'), names=['center', 'left', 'right', 'steering', 'throttle', 'reverse', 'speed'])
 
-    #yay dataframes, we can select rows and columns by their names
+    #dataframes, we can select rows and columns by their names
     #we'll store the camera images as our input data
     X = data_df[['center', 'left', 'right']].values
     #and our steering commands as our output data
