@@ -83,10 +83,10 @@ Here is a visualization of the architecture (note: visualizing the architecture 
 #### 4. Final Video
 
 ```sh
-python drive.py model-004.h5 run
+python drive.py model-004.h5 rn1
 ```
 
 ```sh
-python video.py run
+python video.py rn1 --fps 40 #for making the recorded images make the video rn1.mov
 ```
 
