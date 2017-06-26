@@ -106,7 +106,7 @@ Here is a visualization of the architecture (note: visualizing the architecture 
 
 #### 4. Final Video
 
-for recording or saving the images for video in folder rn1
+for recording or saving the images for video in folder [rn1](rn1)
 
 ```python drive.py model-004.h5 rn1```
 
