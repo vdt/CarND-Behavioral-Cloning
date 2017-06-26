@@ -87,6 +87,6 @@ python drive.py model-004.h5 rn1
 ```
 
 ```sh
-python video.py rn1 --fps 40 #for making the recorded images make the video rn1.mov
+python video.py rn1 --fps 40 #for making the recorded images make the video rn1.mov at 40 frames per second
 ```
 
