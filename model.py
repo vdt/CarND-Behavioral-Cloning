@@ -34,7 +34,7 @@ def load_data(args):
     #and our steering commands as our output data
     y = data_df['steering'].values
 
-    #now , we can split the data into a training (80-90), testing(20-10), and validation set
+    #now , we can split the data into a training (80 to 90), testing(20 to 10), and validation set
     #using scikit learn Library
     X_train, X_valid, y_train, y_valid = train_test_split(X, y, test_size=args.test_size, random_state=0)
 
