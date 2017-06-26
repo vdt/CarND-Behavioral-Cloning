@@ -83,9 +83,7 @@ Here is a visualization of the architecture (note: visualizing the architecture 
 
 #### 4. Final Video
 
-```sh
-python drive.py model-004.h5 rn1
-```
+```python drive.py model-004.h5 rn1```
 
 ```sh
 python video.py rn1 #for taking the recorded or saved images and making the video rn1.mp4 at 60 frames per second (default)
