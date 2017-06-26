@@ -1,10 +1,10 @@
-(carnd-term1) carnd@ip-172-31-20-28:~/BC-P3$ python model.py\
-Using TensorFlow backend.\
-I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so locally\
-I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so locally\
-I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so locally\
-I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally\
-I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so locally\
+(carnd-term1) carnd@ip-172-31-20-28:~/BC-P3$ python model.py
+Using TensorFlow backend.
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so locally
 ------------------------------\
 Parameters\
 ------------------------------\
@@ -58,65 +58,65 @@ major: 3 minor: 0 memoryClockRate (GHz) 0.797\
 pciBusID 0000:00:03.0\
 Total memory: 3.94GiB\
 Free memory: 3.91GiB\
-I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0\
-I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y\
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y
 I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)\
-20000/20000 [==============================] - 124s - loss: 0.0336 - val_loss: 0.0129\
-Epoch 2/30\
-20000/20000 [==============================] - 114s - loss: 0.0255 - val_loss: 0.0130\
-Epoch 3/30\
-20000/20000 [==============================] - 112s - loss: 0.0241 - val_loss: 0.0099\
-Epoch 4/30\
-20000/20000 [==============================] - 110s - loss: 0.0234 - val_loss: 0.0105\
-Epoch 5/30\
-20000/20000 [==============================] - 110s - loss: 0.0225 - val_loss: 0.0106\
-Epoch 6/30\
-20000/20000 [==============================] - 110s - loss: 0.0212 - val_loss: 0.0079\
-Epoch 7/30\
-20000/20000 [==============================] - 110s - loss: 0.0209 - val_loss: 0.0093\
-Epoch 8/30\
-20000/20000 [==============================] - 110s - loss: 0.0201 - val_loss: 0.0093\
-Epoch 9/30\
-20000/20000 [==============================] - 110s - loss: 0.0198 - val_loss: 0.0101\
-Epoch 10/30\
-20000/20000 [==============================] - 110s - loss: 0.0198 - val_loss: 0.0114\
-Epoch 11/30\
-20000/20000 [==============================] - 110s - loss: 0.0194 - val_loss: 0.0087\
-Epoch 12/30\
-20000/20000 [==============================] - 108s - loss: 0.0192 - val_loss: 0.0110\
-Epoch 13/30\
-20000/20000 [==============================] - 109s - loss: 0.0193 - val_loss: 0.0078\
-Epoch 14/30\
-20000/20000 [==============================] - 110s - loss: 0.0187 - val_loss: 0.0102\
-Epoch 15/30\
-20000/20000 [==============================] - 109s - loss: 0.0185 - val_loss: 0.0095\
-Epoch 16/30\
-20000/20000 [==============================] - 109s - loss: 0.0180 - val_loss: 0.0101\
-Epoch 17/30\
-20000/20000 [==============================] - 109s - loss: 0.0184 - val_loss: 0.0093\
-Epoch 18/30\
-20000/20000 [==============================] - 110s - loss: 0.0175 - val_loss: 0.0085\
-Epoch 19/30\
-20000/20000 [==============================] - 110s - loss: 0.0174 - val_loss: 0.0090\
-Epoch 20/30\
-20000/20000 [==============================] - 110s - loss: 0.0175 - val_loss: 0.0095\
-Epoch 21/30\
-20000/20000 [==============================] - 109s - loss: 0.0173 - val_loss: 0.0102\
-Epoch 22/30\
-20000/20000 [==============================] - 108s - loss: 0.0169 - val_loss: 0.0103\
-Epoch 23/30\
-20000/20000 [==============================] - 109s - loss: 0.0167 - val_loss: 0.0107\
-Epoch 24/30\
-20000/20000 [==============================] - 109s - loss: 0.0165 - val_loss: 0.0100\
-Epoch 25/30\
-20000/20000 [==============================] - 110s - loss: 0.0167 - val_loss: 0.0109\
-Epoch 26/30\
-20000/20000 [==============================] - 109s - loss: 0.0162 - val_loss: 0.0112\
-Epoch 27/30\
-20000/20000 [==============================] - 109s - loss: 0.0161 - val_loss: 0.0090\
-Epoch 28/30\
-20000/20000 [==============================] - 109s - loss: 0.0162 - val_loss: 0.0094\
-Epoch 29/30\
-20000/20000 [==============================] - 108s - loss: 0.0159 - val_loss: 0.0094\
-Epoch 30/30\
-20000/20000 [==============================] - 109s - loss: 0.0155 - val_loss: 0.0105}
+20000/20000 [==============================] - 124s - loss: 0.0336 - val_loss: 0.0129
+Epoch 2/30
+20000/20000 [==============================] - 114s - loss: 0.0255 - val_loss: 0.0130
+Epoch 3/30
+20000/20000 [==============================] - 112s - loss: 0.0241 - val_loss: 0.0099
+Epoch 4/30
+20000/20000 [==============================] - 110s - loss: 0.0234 - val_loss: 0.0105
+Epoch 5/30
+20000/20000 [==============================] - 110s - loss: 0.0225 - val_loss: 0.0106
+Epoch 6/30
+20000/20000 [==============================] - 110s - loss: 0.0212 - val_loss: 0.0079
+Epoch 7/30
+20000/20000 [==============================] - 110s - loss: 0.0209 - val_loss: 0.0093
+Epoch 8/30
+20000/20000 [==============================] - 110s - loss: 0.0201 - val_loss: 0.0093
+Epoch 9/30
+20000/20000 [==============================] - 110s - loss: 0.0198 - val_loss: 0.0101
+Epoch 10/30
+20000/20000 [==============================] - 110s - loss: 0.0198 - val_loss: 0.0114
+Epoch 11/30
+20000/20000 [==============================] - 110s - loss: 0.0194 - val_loss: 0.0087
+Epoch 12/30
+20000/20000 [==============================] - 108s - loss: 0.0192 - val_loss: 0.0110
+Epoch 13/30
+20000/20000 [==============================] - 109s - loss: 0.0193 - val_loss: 0.0078
+Epoch 14/30
+20000/20000 [==============================] - 110s - loss: 0.0187 - val_loss: 0.0102
+Epoch 15/30
+20000/20000 [==============================] - 109s - loss: 0.0185 - val_loss: 0.0095
+Epoch 16/30
+20000/20000 [==============================] - 109s - loss: 0.0180 - val_loss: 0.0101
+Epoch 17/30
+20000/20000 [==============================] - 109s - loss: 0.0184 - val_loss: 0.0093
+Epoch 18/30
+20000/20000 [==============================] - 110s - loss: 0.0175 - val_loss: 0.0085
+Epoch 19/30
+20000/20000 [==============================] - 110s - loss: 0.0174 - val_loss: 0.0090
+Epoch 20/30
+20000/20000 [==============================] - 110s - loss: 0.0175 - val_loss: 0.0095
+Epoch 21/30
+20000/20000 [==============================] - 109s - loss: 0.0173 - val_loss: 0.0102
+Epoch 22/30
+20000/20000 [==============================] - 108s - loss: 0.0169 - val_loss: 0.0103
+Epoch 23/30
+20000/20000 [==============================] - 109s - loss: 0.0167 - val_loss: 0.0107
+Epoch 24/30
+20000/20000 [==============================] - 109s - loss: 0.0165 - val_loss: 0.0100
+Epoch 25/30
+20000/20000 [==============================] - 110s - loss: 0.0167 - val_loss: 0.0109
+Epoch 26/30
+20000/20000 [==============================] - 109s - loss: 0.0162 - val_loss: 0.0112
+Epoch 27/30
+20000/20000 [==============================] - 109s - loss: 0.0161 - val_loss: 0.0090
+Epoch 28/30
+20000/20000 [==============================] - 109s - loss: 0.0162 - val_loss: 0.0094
+Epoch 29/30
+20000/20000 [==============================] - 108s - loss: 0.0159 - val_loss: 0.0094
+Epoch 30/30
+20000/20000 [==============================] - 109s - loss: 0.0155 - val_loss: 0.0105
