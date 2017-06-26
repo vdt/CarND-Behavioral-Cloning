@@ -88,9 +88,11 @@ for recording or saving the images for video in folder rn1
 ```python drive.py model-004.h5 rn1```
 
 
+
 for taking the recorded or saved images and making the video rn1.mp4 at 60 frames per second (default)
 
 ```python video.py rn1 ```
+
 
 
 
