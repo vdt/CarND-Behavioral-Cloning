@@ -52,7 +52,7 @@ The model used an adam optimizer with the default learning rate (0.0001) ([model
 
 #### 4. Appropriate training data
 
-Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving, recovering from the left and right sides of the road ... 
+I used [Udacity's SDC-ND Sample Training Data](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584f6edd_data/data.zip) for Training The Model 
 
 ### Model Architecture and Training Strategy
 
