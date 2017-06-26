@@ -83,7 +83,10 @@ Here is a visualization of the architecture (note: visualizing the architecture 
 #### 4. Final Video
 
 ```sh
-python drive.py model.h5 run
+python drive.py model-004.h5 run
 ```
 
+```sh
+python video.py run
+```
 
