@@ -25,7 +25,7 @@ The goals / steps of this project are the following:
 My project includes the following files:
 * [model.py](model.py)  containing the script to create and train the model
 * [drive.py](drive.py) for driving the car in autonomous mode
-* [model.h5](model-004.h5] containing a trained convolution neural network 
+* [model.h5](model-004.h5) containing a trained convolution neural network 
 * [README.md](README.md) summarizing the results
 
 2. Submission includes functional code
