@@ -16,6 +16,7 @@ My project includes the following files:
 * [model.py](model.py)  containing the script to create and train the model
 * [drive.py](drive.py) for driving the car in autonomous mode
 * [model.h5](model-004.h5) containing a trained convolution neural network 
+* [video.py](video.py) for driving the car in autonomous mode
 * [README.md](README.md) summarizing the results
 
 2. Submission includes functional code
@@ -87,10 +88,10 @@ python drive.py model-004.h5 rn1
 ```
 
 ```sh
-python video.py rn1 #for making the recorded images make the video rn1.mp4 at 60 frames per second (default)
+python video.py rn1 #for taking the recorded images and making the video rn1.mp4 at 60 frames per second (default)
 ```
 
 ```sh
-python video.py rn1 --fps 40 #for making the recorded images make the video rn1.mp4 at 40 frames per second
+python video.py rn1 --fps 40 #for taking the recorded images and making the video rn1.mp4 at 40 frames per second
 ```
 
