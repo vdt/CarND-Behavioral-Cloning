@@ -91,12 +91,12 @@ for recording or saving the images for video in folder rn1
 
 for taking the recorded or saved images and making the video rn1.mp4 at 60 frames per second (default)
 
-```python video.py rn1 ```
+```python video.py rn1 ```  outputs [video](https://youtu.be/gvwRCXzHGGs) 
 
 
 
 
 for taking the recorded or saved images and making the video rn1.mp4 at 40 frames per second
 
-```python video.py rn1 --fps 40```
+```python video.py rn1 --fps 40``` outpts [video](https://youtu.be/lEZAF99rWQI)
 
