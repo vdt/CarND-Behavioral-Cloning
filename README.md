@@ -98,5 +98,5 @@ for taking the recorded or saved images and making the video rn1.mp4 at 60 frame
 
 for taking the recorded or saved images and making the video rn1.mp4 at 40 frames per second
 
-```python video.py rn1 --fps 40``` outpts [video](https://youtu.be/lEZAF99rWQI)
+```python video.py rn1 --fps 40``` outputs [video](https://youtu.be/lEZAF99rWQI)
 
