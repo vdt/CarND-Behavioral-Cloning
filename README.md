@@ -32,23 +32,23 @@ The [model.py](model.py) file contains the code for training and saving the conv
 
 #### 1. An appropriate model architecture has been employed
 
-[NVIDIA's End-to-End Deep Learning Model for Self-Driving Cars](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/) is used. It consists of a convolution neural network with 5x5 and 3x3 filter sizes and depths between 24 and 64 ([model.py](model.py) lines 46-75) 
+[NVIDIA's End-to-End Deep Learning Model for Self-Driving Cars](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/) is used. It consists of a convolution neural network with 5x5 and 3x3 filter sizes and depths between 24 and 64 ([model.py](model.py) code lines 46-75) 
 
-The data is normalized in the model using a Keras lambda layer (code line 67)
+The data is normalized in the model using a Keras lambda layer ([model.py](model.py) code line 67)
 
-The model includes ELU layers to introduce nonlinearity (code lines 70-80)
+The model includes ELU layers to introduce nonlinearity ([model.py](model.py) code lines 70-80)
 
 #### 2. Attempts to reduce overfitting in the model
 
-The model contains dropout layers in order to reduce overfitting ([model.py](model.py) lines 76). 
+The model contains dropout layers in order to reduce overfitting ([model.py](model.py) code line 76). 
 
-The model was trained and validated on different data sets to ensure that the model was not overfitting ([model.py](model.py) line 142).
+The model was trained and validated on different data sets to ensure that the model was not overfitting ([model.py](model.py) code line 142).
 
 The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
 
 #### 3. Model parameter tuning
 
-The model used an adam optimizer with the default learning rate (0.0001) ([model.py](model.py) line 110 and line 148).
+The model used an adam optimizer with the default learning rate (0.0001) ([model.py](model.py) code line 110 and line 148).
 
 #### 4. Appropriate training data
 
