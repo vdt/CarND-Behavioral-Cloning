@@ -15,11 +15,7 @@ The goals / steps of this project are the following:
 My project includes the following files:
 * [model.py](model.py)  containing the script to create and train the model
 * [drive.py](drive.py) for driving the car in autonomous mode
-* [model.h5](model-004.h5) containing a trained convolution neural network (this model.h5 file is model-004.h5(which is one of many model-xxx.h5 files produced by tweaking the model parameters and running 
-'''sh
-python model.py
-'''
-))
+* [model.h5](model-004.h5) containing a trained convolution neural network (this model.h5 file is model-004.h5(which is one of many model-xxx.h5 files produced by tweaking the model parameters and running ```sh python model.py ```))
 * [video.py](video.py) for converting the image files to video
 * [README.md](README.md) summarizing the results
 
