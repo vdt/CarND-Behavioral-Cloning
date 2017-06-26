@@ -60,17 +60,15 @@ I used [Udacity's SDC-ND Sample Training Data](https://d17h27t6h515a5.cloudfront
 
 #### 1. Solution Design Approach
 
-[NVIDIA's End-to-End Deep Learning Model for Self-Driving Cars](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/) is used. It consists of a convolution neural network with 5x5 and 3x3 filter sizes and depths between 24 and 64 ([model.py](model.py) code lines 46-75) 
+I started of with a simple CNN Model
 
 In order to gauge how well the model was working, I split my image and steering angle data into a training and validation set. I found that my first model had a low mean squared error on the training set but a high mean squared error on the validation set. This implied that the model was overfitting. 
 
-To combat the overfitting, I modified the model so that ...
+To combat the overfitting, I modified the model so that there is less overfitting.
 
-Then I ... 
+The final step was to run the simulator to see how well the car was driving around track one. There were a few spots where the vehicle fell off the track or slammed the bridge and stopped or hit the tree and stopped. To improve the driving behavior in these cases, I tried to implement [NVIDIA's End-to-End Deep Learning Model for Self-Driving Cars](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/)
 
-The final step was to run the simulator to see how well the car was driving around track one. There were a few spots where the vehicle fell off the track... to improve the driving behavior in these cases, I ....
-
-At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
+After lots of trial and error , and tweaking the training set(from 80% to 90%) and test set (from 20% to 10%) and changing the batch size and learning rate.
 
 #### 2. Final Model Architecture
 
