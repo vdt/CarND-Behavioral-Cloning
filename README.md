@@ -75,7 +75,16 @@ At the end of the process, the vehicle is able to drive autonomously around the 
 
 #### 2. Final Model Architecture
 
-The final model architecture ([model.py](model.py) lines 18-24) consisted of a convolution neural network with the following layers and layer sizes ...
+The Final Model Architecture consisted of convolution neural network with 5x5 and 3x3 filter sizes and depths between 24 and 64 ([model.py](model.py) code lines 46-75) 
+
+The data is normalized in the model using a Keras lambda layer ([model.py](model.py) code line 67)
+
+The model includes ELU layers to introduce nonlinearity ([model.py](model.py) code lines 70-80)
+
+The model contains dropout layers in order to reduce overfitting ([model.py](model.py) code line 76). 
+
+The model was trained and validated on different data sets to ensure that the model was not overfitting ([model.py](model.py) code line 142).
+
 
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
 
