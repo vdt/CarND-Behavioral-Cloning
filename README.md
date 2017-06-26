@@ -85,8 +85,22 @@ The model contains dropout layers in order to reduce overfitting ([model.py](mod
 
 The model was trained and validated on different data sets to ensure that the model was not overfitting ([model.py](model.py) code line 142).
 
-
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
+
+| Layer (type) | Output Shape | Param # | Connected to |
+|——————|———-———-|————-|———————|
+|lambda_1 (Lambda)| (None, 66, 200, 3) | 0 | lambda_input_1[0][0] |
+|convolution2d_1 (Convolution2D)|  (None, 31, 98, 24) |   1824 |       lambda_1[0][0] |
+|convolution2d_2 (Convolution2D) | (None, 14, 47, 36)  |  21636   |    convolution2d_1[0][0] |
+|convolution2d_3 (Convolution2D) | (None, 5, 22, 48)  |   43248   |    convolution2d_2[0][0] |
+|convolution2d_4 (Convolution2D) |(None, 3, 20, 64) |    27712    |   convolution2d_3[0][0] |
+|convolution2d_5 (Convolution2D) | (None, 1, 18, 64)  |   36928   |    convolution2d_4[0][0] |
+|dropout_1 (Dropout)    |          (None, 1, 18, 64)    | 0      |     convolution2d_5[0][0] |
+|flatten_1 (Flatten)     |         (None, 1152)    |      0       |    dropout_1[0][0] |
+|dense_1 (Dense)   |               (None, 100)     |      115300    |  flatten_1[0][0] |
+|dense_2 (Dense)    |              (None, 50)     |       5050     |   dense_1[0][0] |
+|dense_3 (Dense)    |              (None, 10)      |      510      |   dense_2[0][0] |
+|dense_4 (Dense)     |             (None, 1)       |      11        |  dense_3[0][0] |
 
 #### 3. Creation of the Training Set & Training Process
 
