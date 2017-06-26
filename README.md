@@ -87,8 +87,8 @@ The model was trained and validated on different data sets to ensure that the mo
 
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
 
-| Layer (type) | Output Shape | Param # | Connected to |
-|——————|———-———-|————-|———————|
+| Layer (type) | Output Shape | Param Number | Connected to |
+|--------------|--------------|--------------|--------------|
 |lambda_1 (Lambda)| (None, 66, 200, 3) | 0 | lambda_input_1[0][0] |
 |convolution2d_1 (Convolution2D)|  (None, 31, 98, 24) |   1824 |       lambda_1[0][0] |
 |convolution2d_2 (Convolution2D) | (None, 14, 47, 36)  |  21636   |    convolution2d_1[0][0] |
