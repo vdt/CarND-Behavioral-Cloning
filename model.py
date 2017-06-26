@@ -62,8 +62,13 @@ def build_model(args):
     ELU(Exponential linear unit) function takes care of the Vanishing gradient problem. 
     """
     model = Sequential()
+    
+    # Normalization - centered around zero with small standard deviation
     model.add(Lambda(lambda x: x/127.5-1.0, input_shape=INPUT_SHAPE))
+    
+    # Convolution 1: 5x5, filter: 24, strides: 2x2, activation: ELU
     model.add(Conv2D(24, 5, 5, activation='elu', subsample=(2, 2)))
+    
     model.add(Conv2D(36, 5, 5, activation='elu', subsample=(2, 2)))
     model.add(Conv2D(48, 5, 5, activation='elu', subsample=(2, 2)))
     model.add(Conv2D(64, 3, 3, activation='elu'))
